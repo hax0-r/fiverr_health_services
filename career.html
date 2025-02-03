@@ -122,7 +122,7 @@
                 <div class="col-lg-8">
                     <!-- Contact Form Start -->
                     <div class="contact-form">
-                        <form id="appointmentForm" action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" data-toggle="validator">
+                        <form id="" action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" data-toggle="validator">
                             <!-- Web3Forms Access Key -->
                             <input type="hidden" name="access_key" value="ebd2476c-2e6e-4bef-9b22-0b66023a7356">
                         
@@ -371,7 +371,8 @@
 								<p>Get the latest updates and offers.</p>
 							</div>
 							<div class="footer-newsletter-form">
-								<form id="newslettersForm" >
+								<form action="https://api.web3forms.com/submit" method="POST" >
+									<input type="hidden" name="access_key" value="ebd2476c-2e6e-4bef-9b22-0b66023a7356">
 									<div class="form-group">
 										<input type="email" name="email" class="form-control" id="mail"
 											placeholder="Enter Your Email" required>
@@ -403,6 +404,7 @@
 	</footer>
 	<!-- Footer End -->
 
+	<script src="https://smtpjs.com/v3/smtp.js"></script>	
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
