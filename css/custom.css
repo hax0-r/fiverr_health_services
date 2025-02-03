@@ -3243,7 +3243,7 @@ header.main-header .header-sticky.active{
 .contact-information{
 	background-color: var(--primary-color);
 	width: 100%;
-	max-width: 800px;
+	max-width: 880px;
 	margin: 0 auto;
 	padding: 0 20px;
 	margin-top: -70px;
