@@ -41,15 +41,15 @@
 /*************************************/
 
 :root {
-	--body-background: #FFF7F4;
-	--primary-color: #07332F;
+	--body-background: #f4faff;
+	--primary-color: #317d3e;
 	--text-color: #000000;
-	--accent-color: #F7A582;
+	--accent-color: #223645;
 	--secondry-color: #FFFFFF;
 	--transparent-color: #FFFFFF80;
 	--transparent-secondry-color: #00000080;
 	--light-Background: #1F3F37;
-	--light-accent-color: #FEEFE9;
+	--light-accent-color: #e9f0fe;
 	--default-font: "Figtree", sans-serif;
 	;
 }
@@ -1714,7 +1714,7 @@ header.main-header .header-sticky.active {
 	text-transform: capitalize;
 }
 
-.footer-copyright-text p span {
+.footer-copyright-text p a {
 	color: var(--accent-color);
 	font-weight: 600;
 }
