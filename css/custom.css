@@ -41,15 +41,15 @@
 /*************************************/
 
 :root {
-	--body-background: #f4faff;
-	--primary-color: #317d3e;
+	--body-background: #FFF7F4;
+	--primary-color: #07332F;
 	--text-color: #000000;
-	--accent-color: #223645;
+	--accent-color: #F7A582;
 	--secondry-color: #FFFFFF;
 	--transparent-color: #FFFFFF80;
 	--transparent-secondry-color: #00000080;
 	--light-Background: #1F3F37;
-	--light-accent-color: #e9f0fe;
+	--light-accent-color: #FEEFE9;
 	--default-font: "Figtree", sans-serif;
 	;
 }
